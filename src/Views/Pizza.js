@@ -8,7 +8,7 @@ function Pizza() {
   const id = useParams();
   const  { pizzas }  = useContext(AppContext);
   const pizza = pizzas.find(pizza => pizza.id === id.name )
-  console.log(pizza)
+  const { agregarCarro } = useContext(AppContext);
   return (
   <>
    <div className="contpizza">
@@ -28,8 +28,8 @@ function Pizza() {
          return  <li key={index.toString()}>🍕 {ingredients}</li>
         })} 
                 </ul>
-                <p className="card-text">{pizza.price}</p>
-                <button className='btn btn-danger'>Añadir 🛒</button>
+                <p className="card-text">${pizza.price}</p>
+                <button className='btn btn-danger' onClick={() => agregarCarro(pizza)}>Añadir 🛒</button>
          
               </div>
             </div>
