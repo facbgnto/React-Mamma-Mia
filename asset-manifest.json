@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/React-Mamma-Mia/static/css/main.7b1ad267.css",
-    "main.js": "/React-Mamma-Mia/static/js/main.1de16b2b.js",
+    "main.js": "/React-Mamma-Mia/static/js/main.9ba13ea4.js",
     "index.html": "/React-Mamma-Mia/index.html",
     "main.7b1ad267.css.map": "/React-Mamma-Mia/static/css/main.7b1ad267.css.map",
-    "main.1de16b2b.js.map": "/React-Mamma-Mia/static/js/main.1de16b2b.js.map"
+    "main.9ba13ea4.js.map": "/React-Mamma-Mia/static/js/main.9ba13ea4.js.map"
   },
   "entrypoints": [
     "static/css/main.7b1ad267.css",
-    "static/js/main.1de16b2b.js"
+    "static/js/main.9ba13ea4.js"
   ]
 }
