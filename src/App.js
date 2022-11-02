@@ -64,7 +64,7 @@ let carroDeCompra   = []
         return currItems.map((item) => {
           if (item.pizzaP.id === pizzaP.id) {
 
-            return { ...item, quantity: item.quantity - 1 };
+            return { ...item, quantity: item.quantity - 1, total: (item.pizzaP.price* (item.quantity)) - item.pizzaP.price  };
           } else{
             return item;
           }
