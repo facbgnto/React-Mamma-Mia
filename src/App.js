@@ -22,7 +22,7 @@ let carroDeCompra   = []
  
 
   useEffect(()=>{
-    fetch('./pizzas.json')
+    fetch('/React-Mamma-Mia/pizzas.json')
     .then(res => res.json())
     .then(data => setPizzas(data))
     .catch(e =>  console.error(e.message))
@@ -84,7 +84,7 @@ return cantidad
   return (
     <div className="App">
       <AppContext.Provider  value={{pizzas, getPizza, agregarCarro, carro,eliminarCarro,getcatidadCarro}}>
-              <BrowserRouter>
+              <BrowserRouter basename='React-Mamma-Mia'>
                 <Navbar></Navbar>
                         <Routes>
                             <Route path="/" element={<Home />} index/>
