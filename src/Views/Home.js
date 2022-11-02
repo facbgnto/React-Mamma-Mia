@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
      <section className='banner' style={{ 
-      backgroundImage: `url(/Header.jpg)`   }}>
+      backgroundImage: `url(/React-Mamma-Mia/Header.jpg)`   }}>
         <div >
           <h2 >¡Pizzería Mamma Mia!</h2>
           <h4 >
